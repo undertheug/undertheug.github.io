@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
+/*---
 body {
   font-family: $font-default;
   background-color: #040404;
@@ -19,6 +22,36 @@ body {
     z-index: -1;
     @media (min-width: 1024px) {
       background-attachment: fixed;
+    }
+  }
+}
+---*/
+
+body {
+  font-family: $font-default;
+  background-color: #040404;
+  color: #fff;
+  position: relative;
+  background: transparent;
+
+  &::before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+
+    // Background image for all screen sizes
+    background: #040404 url("../img/bg.jpg") top right no-repeat;
+    background-size: cover;
+
+    @media (min-width: 1024px) {
+      background-attachment: fixed;
+      // If you want the background image to show on larger screens
+      // Uncomment the background property below
+      background: #040404 url("../img/bg.jpg") top right no-repeat;
     }
   }
 }
