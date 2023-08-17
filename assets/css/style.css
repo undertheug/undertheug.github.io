@@ -136,7 +136,11 @@ h6 {
 
   #header h2 {
     font-size: 20px;
+    /*
+
     line-height: 30px;
+      */
+
     position: relative;
     z-index: 1; /* Ensure the text is above the background */
     text-align: center; /* Center-align the text */
