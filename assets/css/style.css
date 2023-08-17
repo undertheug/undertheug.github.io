@@ -171,8 +171,9 @@ h6 {
     z-index: 0; /* Place the background behind the text */
   }
 
-  .break-line {
-    white-space: pre-line; /* Preserves line breaks */
+  .break-line::before {
+    content: '\A'; /* Inserts a line break */
+    white-space: pre; /* Preserves line breaks */
   }
   
 
