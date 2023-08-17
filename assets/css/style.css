@@ -170,6 +170,12 @@ h6 {
     opacity: 0.7; /* Adjust opacity as needed */
     z-index: 0; /* Place the background behind the text */
   }
+
+  .break-line {
+    white-space: pre-line; /* Preserves line breaks */
+  }
+  
+
 }
 
 
@@ -368,29 +374,15 @@ h6 {
 # Nav List
 --------------------------------------------------------------*/
 
-/* Apply some basic styling to the list */
-.nav-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-
-/* Style the list items (li) */
-.nav-list li {
-  margin-bottom: 0px; /* Adjust the spacing between items */
-}
-
-
 /* Style the links */
-.nav-list li a {
+.nav-list a {
   text-decoration: none;
   color: #18d26e; /* Adjust the link color 
   font-weight: bold; */
 }
 
 /* On hover, change link color */
-.nav-list li a:hover {
+.nav-list a:hover {
   color: #18d26e; /*  Change to your desired hover color */
 }
 
