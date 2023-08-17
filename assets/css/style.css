@@ -390,6 +390,37 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Nav List
+--------------------------------------------------------------*/
+
+/* Apply some basic styling to the list */
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the list items (li) */
+.nav-list li {
+  margin-bottom: 10px; /* Adjust the spacing between items */
+}
+
+/* Style the links */
+.nav-list li a {
+  text-decoration: none;
+  color: #333; /* Adjust the link color */
+  font-weight: bold;
+}
+
+/* On hover, change link color */
+.nav-list li a:hover {
+  color: #f00; /* Change to your desired hover color */
+}
+
+
+
+
+/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
