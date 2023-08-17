@@ -418,7 +418,7 @@ h6 {
 .nav-list li a::before {
   content: attr(data-description); /* Get the description from the data-description attribute */
   color: #18d26e; /* Adjust the description color */
-  margin-left: 5px; /* Adjust the spacing between link and description */
+  margin-left: 0px; /* Adjust the spacing between link and description */
 }
 
 
