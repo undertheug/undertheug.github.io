@@ -414,6 +414,11 @@ h6 {
   font-weight: bold; */
 }
 
+/* Style the description */
+.nav-list li span {
+  margin-left: 0px; /* Adjust the spacing between link and description */
+}
+
 
 
 /* On hover, change link color */
