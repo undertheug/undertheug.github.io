@@ -172,26 +172,6 @@ h6 {
     white-space: pre; /* Preserves line breaks */
   }
 
-  #header {
-    position: relative;
-    /* Any other properties specific to smaller screens */
-  }
-
-  #header::before {
-    content: "";
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: #040404;
-    background-image: url("../img/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; /* Ensure the background covers the entire area */
-    z-index: -1;
-  }
-  
-
 }
 
 
