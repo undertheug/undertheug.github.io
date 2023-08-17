@@ -414,9 +414,11 @@ h6 {
   font-weight: bold; */
 }
 
-/* Style the description */
-.nav-list li span {
-  margin-left: 0px; /* Adjust the spacing between link and description */
+/* Add the description using ::before pseudo-element */
+.nav-list li a::before {
+  content: attr(data-description); /* Get the description from the data-description attribute */
+  color: #18d26e; /* Adjust the description color */
+  margin-left: 5px; /* Adjust the spacing between link and description */
 }
 
 
