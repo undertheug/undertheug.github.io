@@ -403,7 +403,7 @@ h6 {
 
 /* Style the list items (li) */
 .nav-list li {
-  margin-bottom: 0px; /* Adjust the spacing between items */
+  margin-bottom: 10px; /* Adjust the spacing between items */
 }
 
 
