@@ -412,10 +412,10 @@ h6 {
   font-weight: bold;
 }
 
-/* On hover, change link color */
+/* On hover, change link color 
 .nav-list li a:hover {
-  color: #f00; /* Change to your desired hover color */
-}
+  color: #f00; Change to your desired hover color
+} */
 
 
 
