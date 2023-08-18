@@ -150,6 +150,13 @@ h6 {
     z-index: 1; /* Ensure the text is above the background */
   }
 
+  /* Example CSS rule */
+  .icon {
+  width: 24px;
+  height: 24px;
+  fill: #000; /* Change the color as needed */
+  }
+
   #header .container {
     display: flex;
     flex-direction: column;
