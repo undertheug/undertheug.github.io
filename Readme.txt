@@ -1,6 +1,1 @@
-Thanks for downloading this template!
-
-Template Name: Personal
-Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Deep below the surface of Helsinki, Finland, a signature sound has been forged through the collective artistry of suvinylist and the G.I.B., lyrical prospectors in search of the gold standard of hip hop. The resulting expression is Under The Underground, a creative platform distinctively inspired by the underground ethos of a global movement spanning from the Bronx to Finland and beyond. 
